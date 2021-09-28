@@ -11,4 +11,12 @@ class FizzBuzzTranslateTest {
          String result=FizzBuzzTranslate.translate(numberTest);
          assertEquals(expected,result);
     }
+    @DisplayName("number :4")
+    @org.junit.jupiter.api.Test
+    void test2Translate() {
+        int numberTest=5;
+        String expected="Buzz";
+        String result=FizzBuzzTranslate.translate(numberTest);
+        assertEquals(expected,result);
+    }
 }
